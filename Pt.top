@@ -1,0 +1,19 @@
+; Topology generated using OBGMX.
+;
+; Please cite:
+; G. Garberoglio. OBGMX: A web-based generator of GROMACS topologies for
+; molecular and periodic systems using the Universal Force Field.
+; J. Comput. Chem. 33 (2012), 2204-2208. doi: 10.1002/jcc.23049
+
+
+[ atomtypes ]
+; name1 name2   mass     charge  ptype   sigma   epsilon
+ Pt4+2    Pt4+2     195.0780      0.0000   A     1.31836e-3   3.21865e-7
+ 
+#include "./gromos54a7_atb.ff/forcefield.itp"
+#include <Pt.itp>
+[ system ]
+XXX
+
+[ molecules ]
+UFF      1
